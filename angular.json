@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {},
       "root": "",
-      "sourceRoot": "src",
+      "sourceRoot": "src/presentation",
       "prefix": "app",
       "architect": {
         "build": {
@@ -22,7 +22,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/assets",
+                "input": "src/presentation/assets",
                 "output": "assets"
               },
               {
@@ -102,7 +102,7 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "src/assets",
+                "input": "src/presentation/assets",
                 "output": "assets"
               },
               {
